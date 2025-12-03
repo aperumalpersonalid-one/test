@@ -2,6 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
+
 data "aws_region" "current" {}
 
 resource "aws_dynamodb_table" "test_table_a" {
